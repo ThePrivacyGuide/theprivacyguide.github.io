@@ -1,0 +1,42 @@
+name: Publish docs via GitHub Pages
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    name: Deploy docs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+          architecture: 'x64'
+      - name: Checkout master
+        uses: actions/checkout@v2
+        with:
+          path: project
+      - name: Checkout gh-pages
+        uses: actions/checkout@v2
+        with:
+          path: production
+          ref: gh-pages
+      - name: Install
+        run: |
+          pip install -r requirements.txt
+        working-directory: project
+      - name: Build
+        run: mkdocs build
+        env:
+          ENABLE_PDF_EXPORT: 1
+        working-directory: project
+      - name: config
+        run: "sed -i -e 's/theme_handler_path: pdf-theme-handler.py/theme_handler_path: ..\\/project\\/pdf-theme-handler.py/' ../project/mkdocs.yml"
+        working-directory: production
+      - name: deploy
+        run: mkdocs gh-deploy --config-file ../project/mkdocs.yml --remote-branch gh-pages
+        env:
+          ENABLE_PDF_EXPORT: 1
+        working-directory: production
+

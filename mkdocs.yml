@@ -1,0 +1,62 @@
+site_name: Add your course name here
+site_description: Add your course description here.
+nav:
+  - About the course:
+    - Overview: index.md
+    - Getting help: help/index.md
+  - Lectures:
+    - "Overview": lectures/index.md
+    - "1. Introduction to the Cloud": lectures/1-introduction/index.md
+  - Glossary:
+      - A-Z: glossary/index.md
+theme:
+  name: material
+  features:
+    - tabs
+  font: false
+  social: social.png
+  custom_dir: theme
+extra_css:
+  - custom.css
+extra_javascript:
+  - player.js
+  - external.js
+  - download.js
+plugins:
+  - search
+  - macros
+  - pdf-export:
+      theme_handler_path: pdf-theme-handler.py
+      enabled_if_env: ENABLE_PDF_EXPORT
+      media_type: print
+      verbose: true
+  - exclude:
+      glob: []
+markdown_extensions:
+  - meta
+  - admonition
+  - markdown_include.include
+  - toc:
+      permalink: "#"
+      baselevel: 2
+      separator: "_"
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed
+  - pymdownx.tilde
+use_directory_urls: true
+copyright: Copyright © 2020 Your Name Here
