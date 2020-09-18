@@ -1,12 +1,12 @@
-site_name: Add your course name here
-site_description: Add your course description here.
+site_name: The Privacy Guide  
+site_description: A definitive guide to claim back your privacy online
 nav:
-  - About the course:
+  - About the Guide:
     - Overview: index.md
     - Getting help: help/index.md
-  - Lectures:
-    - "Overview": lectures/index.md
-    - "1. Introduction to the Cloud": lectures/1-introduction/index.md
+  - Guides:
+    - "Overview": guides/index.md
+    - "1. Introduction to the Cloud": guides/1_Securing_Accounts/index.md
   - Glossary:
       - A-Z: glossary/index.md
 theme:
