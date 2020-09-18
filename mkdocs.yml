@@ -2,11 +2,10 @@ site_name: The Privacy Guide
 site_description: A definitive guide to claim back your privacy online
 nav:
   - About the Guide:
-    - Overview: index.md
-    - Getting help: help/index.md
+    - Introduction: index.md
   - Guides:
     - "Overview": guides/index.md
-    - "1. Introduction to the Cloud": guides/1_Securing_Accounts/index.md
+    - "1. Securing Your Online Accounts": guides/1_Securing_Accounts/index.md
   - Glossary:
       - A-Z: glossary/index.md
 theme:
@@ -59,4 +58,4 @@ markdown_extensions:
   - pymdownx.tabbed
   - pymdownx.tilde
 use_directory_urls: true
-copyright: Copyright © 2020 Your Name Here
+copyright: Copyright © 2020 The Privacy Guide
