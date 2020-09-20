@@ -29,7 +29,7 @@ theme:
       icon: material/weather-sunny
       name: light mode
    icon:
-    logo: material/library/fontawesome/fa-user-secret
+    logo: material/library/fontawesome/solid/fa-user-secret.svg
 extra_css:
   - custom.css
 extra_javascript:
