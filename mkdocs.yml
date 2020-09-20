@@ -17,14 +17,14 @@ theme:
   custom_dir: theme
   palette: 
    - scheme: slate
-     primary: indigo
-     accent: orange
+     primary: black
+     accent: deep-orange
      toggle: 
        icon: material/weather-night
        name: dark mode
    - scheme: default
      primary: indigo
-     accent: orange
+     accent: deep-orange
      toggle:
       icon: material/weather-sunny
       name: light mode
