@@ -13,7 +13,7 @@ theme:
   features:
     - tabs
   font: false
-  social: social.png
+  social: /docs/logo.svg
   custom_dir: theme
 extra_css:
   - custom.css
