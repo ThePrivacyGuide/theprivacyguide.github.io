@@ -19,7 +19,7 @@ If you had to think about a new random password for each account, you'd run out 
 
 ![Type in the Name of the Service, your email/username you use for this account and click on the arrows to generate a new random password](docs/guides/1_Securing_Accounts/images/image_3.png){: align=left }
 
-![Toggle the types of characters you want your password to contain. I always toggle all four and set the length to 25 characters](./docs/guides/1_Securing_Accounts/images/image_4.png){: align=left }
+![Toggle the types of characters you want your password to contain. I always toggle all four and set the length to 25 characters](docs/guides/1_Securing_Accounts/images/image_4.png){: align=left }
 
 
 ## Extra Tips and Tricks
