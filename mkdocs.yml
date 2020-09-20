@@ -32,6 +32,7 @@ plugins:
   - exclude:
       glob: []
 markdown_extensions:
+  - attr_list
   - meta
   - admonition
   - markdown_include.include
