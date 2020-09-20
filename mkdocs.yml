@@ -28,6 +28,8 @@ theme:
      toggle:
       icon: material/weather-sunny
       name: light mode
+   icon:
+    logo: material/library/fontawesome/fa-user-secret
 extra_css:
   - custom.css
 extra_javascript:
