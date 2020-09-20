@@ -9,26 +9,27 @@ Bitwarden is available on Android, IOS, Mac OS, Windows and Linux. It also offer
 ## 2nd Step: Choose a strong Master Password
 Once you have downloaded the Bitwarden App from the Google PlayStore, Apple Appstore or whatever store you might be using, you need to create an Account. The Master Password in conjunction with your email address is what is needed to access your Vault. The Vault is where all of your passwords are stored. It goes without saying that this password needs to be extremely secure. One common misconception is that for a password to be secure it needs to be hard to remember and some weird combination of characters. This is true of your other passwords in your Vault, but not for your Master Password. Instead of thinking of it as a pass**word**, I would rather think of it as a pass**phrase**. The way an attacker will crack your password is either by using a Wordlist attack, a Brute-force attack or through Social Engineering. The latter is (possibly) mitigated by using things like Two Factor Authentication, the former two are what a good passphrase should prevent. The longer your passphrase, the more possible combinations there exist and thus the longer it will take for a computer to crack it. What I do is I try to think of a silly but easy to remember phrase. An example could be: "_Fred Westerson walks on rotten Bananas_". I hope there is nobody out there called Fred Westerson, but for some reaso that is what I came up with spontaneously. This passphrase should take around 10,826,447,514,211,228 centuries to crack. Pretty secure, right?
 <figure>
-  <img src="./images/image_1.png" class="center">
+  <img src="./images/image_1.png" width="300" />
   <figcaption>Image showing the creation of a new account on Bitwarden.</figcaption>
 </figure>
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-}
 
 ## 3rd Step: Start changing your passwords
 This is probably the most tedious part since you need to go in and change every password from every online account you have. I suggest you do this step by step and change a password the next time you use an account.
 If you had to think about a new random password for each account, you'd run out of words to use fairly quickly. This is why Bitwarden (and other password managers) have a password generation feature. Just go into the app, create a new password and click on the circular arrows next to the password box. I suggest you to use a password that has around 25 characters and that uses numbers, upper and lower case letters as well as special symbols. This way you have a very secure password, but not too long so that it is impossible to type out if you cannot copy paste it once for some reason.
+<figure>
+  <img src="./images/image_2.png" width="300" />
+  <figcaption>Your Vault the first time you start the application should look something like this.\nClick on Add item to add a new Password</figcaption>
+</figure>
 
-![Your Vault the first time you start the application should look something like this. Click on Add item to add a new Password](./images/image_2.png){: align=left }
+<figure>
+  <img src="./images/image_3.png" width="300" />
+  <figcaption>Type in the Name of the Service, your email/username you use for this account and click on the arrows to generate a new random password</figcaption>
+</figure>
 
-![Type in the Name of the Service, your email/username you use for this account and click on the arrows to generate a new random password](./images/image_3.png){: align=right }
-
-![Toggle the types of characters you want your password to contain. I always toggle all four and set the length to 25 characters](./images/image_3.png){: align=left }
+<figure>
+  <img src="./images/image_4.png" width="300" />
+  <figcaption>Toggle the types of characters you want your password to contain. I always toggle all four and set the length to 25 characters</figcaption>
+</figure>
 
 
 ## Extra Tips and Tricks
@@ -37,7 +38,10 @@ If you want to make your life that much easier, change your default Autofill Ser
 #### On IOS
 Go to Settings > Passwords & Accounts > Autofill Passwords > Choose Bitwarden from the list
 ![Autofill with Bitwarden on Iphone](./images/image_5.png){: align=right }
-
+<figure>
+  <img src="./images/image_5.png" width="300" />
+  <figcaption>Autofill with Bitwarden on Iphone</figcaption>
+</figure>
 #### On Android
 Open the Bitwarden App > Click on Settings > Click on Auto-fill Service to enable it (follow the instructions) > go back to the settings and click on Auto-fill Accessibility Service to enable it (again follow the instructions)
 
