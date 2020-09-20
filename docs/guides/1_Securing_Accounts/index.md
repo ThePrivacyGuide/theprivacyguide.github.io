@@ -26,7 +26,7 @@ If you had to think about a new random password for each account, you'd run out 
 If you want to make your life that much easier, change your default Autofill Service to be Bitwarden. This way you get prompted to "Autofill with Bitwarden" if you ever have to login somewhere.
 #### On IOS
 Go to Settings > Passwords & Accounts > Autofill Passwords > Choose Bitwarden from the list
-![Autofill with Bitwarden on Iphone](./resources/1_securing_accounts/image_5.png)
+![Autofill with Bitwarden on Iphone](theprivacyguide.github.io/resources/1_securing_accounts/image_5.png)
 
 #### On Android
 Open the Bitwarden App > Click on Settings > Click on Auto-fill Service to enable it (follow the instructions) > go back to the settings and click on Auto-fill Accessibility Service to enable it (again follow the instructions)
